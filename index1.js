@@ -43,3 +43,55 @@ names.unshift("jisoo");
 console.log(names);
 names.shift("jisoo");
 console.log(names);
+
+
+function greet(name){
+    console.log("Hello "+name+"!");
+}
+greet("Alice");
+
+let age=18;
+if(age>=18){
+    console.log("You are eligible for voting");
+}
+
+let mark=45;
+if(mark>=45){
+    console.log("You passed");
+}else{
+    console.log("you failed!");
+}
+
+let person={
+    fname:"Ram",
+    age:23,
+    issudent:false,
+}
+console.log(person)
+console.log(person.fname)
+
+let day = 3;
+let dayName;
+switch (day) {
+  case 1:
+    dayName = "Monday";
+    break;
+  case 2:
+    dayName = "Tuesday";
+    break;
+  case 3:
+    dayName = "Wednesday";
+    break;
+  case 4:
+    dayName = "Thursday";
+    break;
+  case 5:
+    dayName = "Friday";
+    break;
+    case 6:
+    dayName = "Saturday";
+    break;
+  default:
+    dayName = "Weekend";
+}
+console.log(dayName);
