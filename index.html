@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jessica's Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header>
+    <div class="header-container">
+      <img src="photo.jpg" alt="Jessica's Photo" class="logo" />
+      <h1 >Jessica</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hello! I'm Jessica, currently pursuing my Bachelor's degree at ccc College of Engineering (2023–2027).</p>
+
+      <h3>Education</h3>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Level</th>
+            <th>Institution</th>
+            <th>Year</th>
+            <th>Place</th>
+            <th>Percentage</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>High School</td>
+            <td>ABC Matric Higher Secondary School</td>
+            <td>20XX</td>
+            <td>Pavoorchatram</td>
+            <td>90%</td>
+          </tr>
+          <tr>
+            <td>Higher Secondary</td>
+            <td>XYZ Higher Secondary School</td>
+            <td>20XX</td>
+            <td>Pavoorchatram</td>
+            <td>70%</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Python libraries: Seaborn, Matplotlib, NumPy</li>
+        <li>Basics of Java, JavaScript, C Programming</li>
+        <li>Professional Front-End Development</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Door Automation</strong></li>
+        <li><strong>Ticket Booking Website</strong></li>
+        <li><strong>Bakery Shop Website</strong></li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form class="form-box">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Jessica. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
